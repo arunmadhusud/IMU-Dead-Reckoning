@@ -1,0 +1,3 @@
+Time,header.seq,header.stamp.secs,header.stamp.nsecs,header.frame_id,level,name,msg,file,function,line,topics
+1666913724.502607,3,1666913724,496689934,,2,/record_1666913724474877369,Subscribing to /gps,/tmp/binarydeb/ros-noetic-rosbag-1.15.14/src/recorder.cpp,shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe,255,['/rosout']
+1666913724.5026405,4,1666913724,499651400,,2,/record_1666913724474877369,Subscribing to /imu,/tmp/binarydeb/ros-noetic-rosbag-1.15.14/src/recorder.cpp,shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe,255,['/rosout']

@@ -1,0 +1,10 @@
+<launch>
+    <arg name="port1" default="/dev/ttyUSB1" />
+    <node pkg="lab4_driver" name="gps_driver" type="gps_driver.py" >
+        <param name="port" value="$(arg port1)" />
+    </node>
+    <arg name="port2" default="/dev/ttyUSB1" />
+    <node pkg="lab4_driver" name="imu_driver" type="imu_driver.py" >
+        <param name="port" value="$(arg port2)" />
+  </node>
+</launch>
